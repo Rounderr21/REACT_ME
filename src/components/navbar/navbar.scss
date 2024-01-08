@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+}  
+.navLink {
+    color: #54b3b0;
+    margin-right: 25px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinkContainer {
+    display: flex;
+    flex-direction: row;
+    // border: 10px solid green;
+    margin-top: 50px;
+    margin-bottom: 75px;
+
+}
+    
+.left-side {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  
