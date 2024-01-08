@@ -1,0 +1,56 @@
+
+.neonText {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Ensure it spans the entire width */
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #54b3b0,
+    0 0 80px #54b3b0, 0 0 90px #54b3b0, 0 0 100px #54b3b0, 0 0 150px #54b3b0, 0 0 200px #54b3b0,
+    0 0 250px #54b3b0;
+}
+
+  
+  .neonText ul {
+    display: flex; /* Use flexbox for layout */
+    margin-right: 100px; /* Adjust spacing between items */
+  }
+  
+  .github-image,
+  .linkedin-image,
+  .instagram-image,
+  .facebook-image,
+  .bloodhaven-image {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+  }
+
+  .flicker {
+    animation: flicker 1.5s infinite alternate;
+  }
+  
+  @keyframes flicker {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+      text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #54b3b0,
+        0 0 80px #54b3b0, 0 0 90px #54b3b0, 0 0 100px #54b3b0, 0 0 150px #54b3b0,
+        0 0 200px #54b3b0, 0 0 250px #54b3b0;
+    }
+    20%,
+    24%,
+    55% {
+      text-shadow: none;
+    }
+  }
+  
