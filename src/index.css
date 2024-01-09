@@ -31,12 +31,10 @@ body {
 	background-repeat: no-repeat;
 	margin: 0;
 	display: flex;
-	/* place-items: center; */
-	/* min-width: 100vw; */
-	/* min-height: 100vh; */
-
-}
-
+	min-height: 100vh;
+	background-attachment: fixed;
+  }
+  
 section {
 	height: 100vh;
 	scroll-snap-type: center;
