@@ -1,6 +1,6 @@
 .homePage {
-    /* background: url("../../assets/Images/Logo.png") black no-repeat center / cover;
-    background-size: contain; */
+height: 750px;
+
 }
 #photo {
 border-radius: 200px;
@@ -9,11 +9,17 @@ margin-left: 100px;
 }
 
 #aboutme {
-font-size: 25px;
-font-family: "Roboto Slab", serif;
+text-align: center;
+
 }
+
 h1{
     padding-bottom: 40px;
+    color: #651b4b;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    text-shadow: 
+    2px 2px rgb(255, 128, 255);
 }
 
 p{
