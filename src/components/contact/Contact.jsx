@@ -49,21 +49,30 @@ function Contact() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <fieldset>
-        <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required />
-        <input
-          type="email"
-          value={email}
-          onChange={handleEmailChange}
-          placeholder="Email"
-          required
-        />
-        {emailError && <p className="error">{emailError}</p>}
-        <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" required></textarea>
-        <button type="submit">Submit</button>
-      </fieldset>
-    </form>
+    <div className="contact-container">
+      <h1>Contact Me</h1>
+      <form onSubmit={handleSubmit}>
+        <div className="input-group">
+          <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required />
+        </div>
+        <div className="input-group">
+          <input
+            type="email"
+            value={email}
+            onChange={handleEmailChange}
+            placeholder="Email"
+            required
+          />
+          {emailError && <p className="error">{emailError}</p>}
+        </div>
+        <div className="input-group">
+          <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" required></textarea>
+        </div>
+        <div className="input-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
   );
 }
 
