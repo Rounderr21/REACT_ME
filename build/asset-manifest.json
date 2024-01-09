@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.54bd4c25.css",
-    "main.js": "/static/js/main.8242b34a.js",
+    "main.js": "/static/js/main.969ac78b.js",
     "static/media/bloodSworn-issue1-pg15-colors.jpg": "/static/media/bloodSworn-issue1-pg15-colors.7df3963d37208708f19a.jpg",
     "static/media/bloodSworn-issue1-pg18-colors.jpg": "/static/media/bloodSworn-issue1-pg18-colors.1f7d9357fb02c598cdc1.jpg",
     "static/media/bloodSworn-issue1-pg24-colors-v3.jpg": "/static/media/bloodSworn-issue1-pg24-colors-v3.8d6fde3953c71b25400f.jpg",
@@ -20,10 +20,10 @@
     "static/media/initials.png": "/static/media/initials.ec20a6ac38c6b32cd9f2.png",
     "index.html": "/index.html",
     "main.54bd4c25.css.map": "/static/css/main.54bd4c25.css.map",
-    "main.8242b34a.js.map": "/static/js/main.8242b34a.js.map"
+    "main.969ac78b.js.map": "/static/js/main.969ac78b.js.map"
   },
   "entrypoints": [
     "static/css/main.54bd4c25.css",
-    "static/js/main.8242b34a.js"
+    "static/js/main.969ac78b.js"
   ]
 }
