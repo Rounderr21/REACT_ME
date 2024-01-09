@@ -1,0 +1,35 @@
+
+
+  .resumeContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* Add other necessary styles */
+  }
+  
+  .textSection {
+    width: 50%;
+
+    /* Style for the paragraph on the left side */
+  }
+  
+  .imageSection {
+    /* Style for the image on the right side */
+    width: 500px;
+    height: 550px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  ol{
+    color: whitesmoke;
+    font-size: 20px;
+  }
+
+  .skills{
+    color: #54b3b0;
+    font-size: 35px;
+    text-decoration: underline;
+  }
