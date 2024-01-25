@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/REACT_ME/static/css/main.9cbbb8c0.css",
+    "main.js": "/REACT_ME/static/js/main.1a3d4fb0.js",
+    "static/media/bloodSworn-issue1-pg15-colors.jpg": "/REACT_ME/static/media/bloodSworn-issue1-pg15-colors.7df3963d37208708f19a.jpg",
+    "static/media/bloodSworn-issue1-pg18-colors.jpg": "/REACT_ME/static/media/bloodSworn-issue1-pg18-colors.1f7d9357fb02c598cdc1.jpg",
+    "static/media/bloodSworn-issue1-pg24-colors-v3.jpg": "/REACT_ME/static/media/bloodSworn-issue1-pg24-colors-v3.8d6fde3953c71b25400f.jpg",
+    "static/media/bloodSworn-issue1-pg23-colors.jpg": "/REACT_ME/static/media/bloodSworn-issue1-pg23-colors.288e7886e1262a0cfd0a.jpg",
+    "static/media/project2.png": "/REACT_ME/static/media/project2.24db4078a08549e0d741.png",
+    "static/media/project3.png": "/REACT_ME/static/media/project3.be1920b708ebcb25c695.png",
+    "static/media/BloodHaven_Productions.png": "/REACT_ME/static/media/BloodHaven_Productions.90f2a51b1b43ae0932de.png",
+    "static/media/project1.png": "/REACT_ME/static/media/project1.c30a76a60c614ca87233.png",
+    "static/media/projectsBackground.jpg": "/REACT_ME/static/media/projectsBackground.0aa8bfa8e504f080d1ce.jpg",
+    "static/media/ResumeImg.png": "/REACT_ME/static/media/ResumeImg.5eddcdf0d81ba5c9bea9.png",
+    "static/media/Instagram.png": "/REACT_ME/static/media/Instagram.ed5ed57e98d053cf1e55.png",
+    "static/media/project4.png": "/REACT_ME/static/media/project4.2e8a849033568e363acb.png",
+    "static/media/project6.png": "/REACT_ME/static/media/project6.2be1d09d0a73651a6607.png",
+    "static/media/Facebook.png": "/REACT_ME/static/media/Facebook.bb6a349297bb03ac93f8.png",
+    "static/media/project5.png": "/REACT_ME/static/media/project5.0fdce822a4d5f4235a2c.png",
+    "static/media/initials.png": "/REACT_ME/static/media/initials.ec20a6ac38c6b32cd9f2.png",
+    "index.html": "/REACT_ME/index.html",
+    "main.9cbbb8c0.css.map": "/REACT_ME/static/css/main.9cbbb8c0.css.map",
+    "main.1a3d4fb0.js.map": "/REACT_ME/static/js/main.1a3d4fb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cbbb8c0.css",
+    "static/js/main.1a3d4fb0.js"
+  ]
+}
