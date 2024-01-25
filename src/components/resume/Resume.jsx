@@ -14,6 +14,8 @@ export default function Resume() {
             <ol>Database: MySQL, MongoDB</ol>
             <ol>Frameworks & Libraries: Bootstap, Tailwind, jQuery, Handlebars</ol>
             <ol>API's & Technlology: GraphQL, Heroku</ol>
+            <ol>Cloud Services: AWS (Amazon Web Services)</ol>
+            <ol>Artificial Intelligence: AI Applications and Prompt Engineering</ol>
           </ul>
         </div>
         <div className="imageSection">
