@@ -10,7 +10,7 @@ export default function Resume() {
           <p>Enclosed is a snapshot of my professional resume. For a comprehensive overview of my credentials and experience, please click on the image provided.</p>
           <ul>
             <ol className="skills">Skills:</ol>
-            <ol className="list">Programming Languages: Node.js, REACT, Express, Python, HTML, CSS, JavaScript</ol>
+            <ol className="list">Programming Languages: Node.js, REACT, Express, Python, HTML, CSS, JavaScript, Next.js</ol>
             <ol className="list">Database: MySQL, MongoDB</ol>
             <ol className="list">Frameworks & Libraries: Bootstap, Tailwind, jQuery, Handlebars</ol>
             <ol className="list">API's & Technlology: GraphQL, Heroku</ol>
