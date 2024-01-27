@@ -11,7 +11,7 @@ export default function Resume() {
           <ul>
             <ol className="skills">Skills:</ol>
             <ol className="list">Programming Languages: Node.js, REACT, Express, Python, HTML, CSS, JavaScript, Next.js</ol>
-            <ol className="list">Database: MySQL, MongoDB</ol>
+            <ol className="list">Database: MySQL, MongoDB, NoSQL, DynamoDB</ol>
             <ol className="list">Frameworks & Libraries: Bootstap, Tailwind, jQuery, Handlebars</ol>
             <ol className="list">API's & Technlology: GraphQL, Heroku</ol>
             <ol className="list">Cloud Services: AWS (Amazon Web Services)</ol>
