@@ -1,12 +1,14 @@
 .homePage {
 height: 750px;
 width: 100vw;
+text-align: center;
 
 }
 #photo {
 border-radius: 200px;
-width: 300px;
+width: 500px;
 margin-left: 100px;
+margin-top: 100px;
 }
 
 #aboutme {
@@ -16,6 +18,7 @@ text-align: center;
 
 h1{
     padding-bottom: 40px;
+    font-size: 150px;
     color: #651b4b;
     font-family: 'Roboto Slab', serif;
     text-align: center;
@@ -23,7 +26,107 @@ h1{
     2px 2px rgb(255, 128, 255);
 }
 
-p{
+.pHeader{
     color: whitesmoke;
+    font-size: 35px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .homePage {
+        height: 750px;
+        width: 100vw;
+        text-align: start;
+        
+        }
+        #photo {
+        border-radius: 200px;
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 1px;
+        }
+        
+        #aboutme {
+        text-align: center;
+        
+        }
+        
+        h1{
+            padding-bottom: 40px;
+            font-size: 80px;
+            color: #651b4b;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            text-shadow: 
+            2px 2px rgb(255, 128, 255);
+        }
+        
+        .pHeader{
+            color: whitesmoke;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        
+    
+}
+
+//Large laptop size screens
+@media screen and (max-width: 1441px){
+    .homePage {
+        height: 750px;
+        width: 100vw;
+        
+        }
+        #photo {
+        border-radius: 200px;
+        width: 200px;
+        margin-left: 100px;
+        }
+        
+        #aboutme {
+        text-align: center;
+        
+        }
+        
+        h1{
+            padding-bottom: 40px;
+            font-size: 75px;
+            color: #651b4b;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            text-shadow: 
+            2px 2px rgb(255, 128, 255);
+        }
+        
+        .pHeader{
+            color: whitesmoke;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        
+}
+
+//Laptop size screens
+@media screen and (max-width: 1024px){
+
+}
+
+//Tablet size screens
+@media screen and (max-width: 768px){
+
+}
+
+//Mobile Large size screens
+@media screen and (max-width: 425px){
+
+}
+
+//Mobile Medium size screens
+@media screen and (max-width: 375px){
+
+}
+
+//Mobile Small size screens
+@media screen and (max-width: 320px){
+
 }
