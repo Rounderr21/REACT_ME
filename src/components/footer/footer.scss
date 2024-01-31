@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-evenly;
-  font-size: 40px;
+  font-size: 70px;
   color: black;
   text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #54b3b0,
     0 0 80px #54b3b0, 0 0 90px #54b3b0, 0 0 100px #54b3b0, 0 0 150px #54b3b0, 0 0 200px #54b3b0,
@@ -24,8 +24,8 @@
 .instagram-image,
 .facebook-image,
 .bloodhaven-image {
-  width: 25px; /* Reduced size for smaller screens */
-  height: 25px; /* Reduced size for smaller screens */
+  width: 45px; /* Reduced size for smaller screens */
+  height: 45px; /* Reduced size for smaller screens */
   margin-top: 15px; /* Adjusted margin for smaller screens */
 }
 
@@ -52,23 +52,97 @@
   }
 }
 
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
   .neonText {
-    font-size: 30px; /* Adjusted font size for smaller screens */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #54b3b0,
+      0 0 80px #54b3b0, 0 0 90px #54b3b0, 0 0 100px #54b3b0, 0 0 150px #54b3b0, 0 0 200px #54b3b0,
+      0 0 250px #54b3b0;
   }
-
+  
   .neonText ul {
-    margin-right: 10px; /* Further reduced spacing between items for smaller screens */
+    display: flex;
+    margin-right: 20px; /* Adjusted spacing between items for smaller screens */
   }
-
+  
   .github-image,
   .linkedin-image,
   .instagram-image,
   .facebook-image,
   .bloodhaven-image {
-    width: 15px; /* Further reduced size for smaller screens */
-    height: 15px; /* Further reduced size for smaller screens */
-    margin-top: 10px; /* Adjusted margin for smaller screens */
+    width: 25px; /* Reduced size for smaller screens */
+    height: 25px; /* Reduced size for smaller screens */
+    margin-top: 15px; /* Adjusted margin for smaller screens */
   }
+  
+
+}
+
+//Large laptop size screens
+@media screen and (max-width: 1441px){
+  .neonText {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #54b3b0,
+      0 0 80px #54b3b0, 0 0 90px #54b3b0, 0 0 100px #54b3b0, 0 0 150px #54b3b0, 0 0 200px #54b3b0,
+      0 0 250px #54b3b0;
+  }
+  
+  .neonText ul {
+    display: flex;
+    margin-right: 20px; /* Adjusted spacing between items for smaller screens */
+  }
+  
+  .github-image,
+  .linkedin-image,
+  .instagram-image,
+  .facebook-image,
+  .bloodhaven-image {
+    width: 25px; /* Reduced size for smaller screens */
+    height: 25px; /* Reduced size for smaller screens */
+    margin-top: 15px; /* Adjusted margin for smaller screens */
+  }
+  
+}
+
+//Laptop size screens
+@media screen and (max-width: 1024px){
+
+}
+
+//Tablet size screens
+@media screen and (max-width: 768px){
+
+}
+
+//Mobile Large size screens
+@media screen and (max-width: 425px){
+
+}
+
+//Mobile Medium size screens
+@media screen and (max-width: 375px){
+
+}
+
+//Mobile Small size screens
+@media screen and (max-width: 320px){
+
 }
