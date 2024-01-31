@@ -69,20 +69,3 @@ a {
 	border-radius: 0.4rem;
 	cursor: pointer;
 }
-
-
-/* ----- MEDIUM MEDIA QUERY ----- */
-@media screen and (max-width: 1024px) {
-
-	section {
-		margin-top: 6rem;
-	}
-} 
-
-/* ----- SMALL MEDIA QUERY ----- */
-@media screen and (max-width: 600px) {
-
-	section > h2 {
-		margin-bottom: 2rem;
-	}
-}
