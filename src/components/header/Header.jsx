@@ -8,8 +8,8 @@ export default function Header() {
             <div>
                 <div id="aboutme">
                     <h1>I am Cody Schwengler</h1>
-                    <p> Fullstack developer, REACT lover, and Owner of BloodHaven Productions Comics.</p>
-                    <p> I invite you to explore my digital playground—a collection of projects, experiences, and code snippets that showcase my journey in the world of software development.</p>
+                    <p className="pHeader"> Fullstack developer, REACT lover, and Owner of BloodHaven Productions Comics.</p>
+                    <p className="pHeader"> I invite you to explore my digital playground—a collection of projects, experiences, and code snippets that showcase my journey in the world of software development.</p>
                 </div>
             </div>
         </div>
