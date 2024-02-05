@@ -15,7 +15,6 @@
 .navLinkContainer {
     display: flex;
     flex-direction: row;
-    // border: 10px solid green;
     margin-top: 50px;
     margin-bottom: 75px;
 
@@ -133,14 +132,86 @@
 
 //Laptop size screens
 @media screen and (max-width: 1024px){
+    .navbar {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 10px 20px; /* Adjust padding as needed */
+    }  
+    .navLink {
+        color: #54b3b0;
+        margin-right: 25px;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navLinkContainer {
+        display: flex;
+        flex-direction: row;
+        // border: 10px solid green;
+        margin-top: 50px;
+        margin-bottom: 75px;
+    
+    }
+        
+    .left-side {
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+      }
+    
+      .right-side {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 50px;
+      }
+    
+      #initals{
+        margin-top: 10px;
+     width: 70%;
+     height: 70%;
+     object-fit: cover;
+      }  
+
 
 }
 
 //Tablet size screens
-@media screen and (max-width: 768px){
-
-}
-
+@media screen and (max-width: 768px) {
+    .navLinkContainer {
+      display: none; /* Initially hide the navigation links */
+    }
+  
+    .navLink {
+      color: #54b3b0;
+      margin-right: 35px;
+      font-size: 45px;
+      align-items: center;
+      justify-content: center;
+      display: none; /* Hide individual nav links on smaller screens */
+    }
+    .left-side {
+        display: none;
+      }
+  
+    .right-side {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 10px 20px; /* Adjust padding as needed */
+    }
+    #initals{
+        display: none;
+    }
+  }
+  
 //Mobile Large size screens
 @media screen and (max-width: 425px){
 

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-scroll';
 import './navbar.scss';
 import initals from '../../assets/Images/initials.png'
+import Hamburger from './burgerMenu/hamburgerMenu';
 
 const Navbar = ({ onPageChange }) => {
   const [activePage, setActivePage] = useState('home'); // Default active page
@@ -73,8 +74,8 @@ const Navbar = ({ onPageChange }) => {
 		>
 			Contact
 		</Link>
-	
     </div>
+    <div className='hamburger'><Hamburger /></div>
       </nav>
     </>
   );
