@@ -124,7 +124,37 @@
 
 //Laptop size screens
 @media screen and (max-width: 1024px){
-
+  .neonText {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: black;
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #54b3b0,
+      0 0 80px #54b3b0, 0 0 90px #54b3b0, 0 0 100px #54b3b0, 0 0 150px #54b3b0, 0 0 200px #54b3b0,
+      0 0 250px #54b3b0;
+  }
+  
+  .neonText ul {
+    display: flex;
+    margin-right: 20px; /* Adjusted spacing between items for smaller screens */
+  }
+  
+  .github-image,
+  .linkedin-image,
+  .instagram-image,
+  .facebook-image,
+  .bloodhaven-image {
+    width: 25px; /* Reduced size for smaller screens */
+    height: 25px; /* Reduced size for smaller screens */
+    margin-top: 15px; /* Adjusted margin for smaller screens */
+  }
+  
 }
 
 //Tablet size screens
