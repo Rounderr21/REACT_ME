@@ -1,3 +1,4 @@
+//these setting are best at 4k resoltion of 2560x1443
 .homePage {
 height: 750px;
 width: 100vw;
@@ -32,6 +33,7 @@ h1{
     padding-bottom: 20px;
 }
 
+//larger laptop screens
 @media screen and (max-width: 1920px) {
     .homePage {
         height: 750px;
@@ -108,7 +110,39 @@ h1{
 
 //Laptop size screens
 @media screen and (max-width: 1024px){
-
+    .homePage {
+        height: 750px;
+        width: 100vw;
+        text-align: center;
+        
+        }
+        #photo {
+        border-radius: 200px;
+        width: 200px;
+        margin-left: 1px;
+        }
+        
+        #aboutme {
+        text-align: center;
+        
+        }
+        
+        h1{
+            padding-bottom: 40px;
+            font-size: 75px;
+            color: #651b4b;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            text-shadow: 
+            2px 2px rgb(255, 128, 255);
+        }
+        
+        .pHeader{
+            color: whitesmoke;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        
 }
 
 //Tablet size screens
